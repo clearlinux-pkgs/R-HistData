@@ -4,13 +4,14 @@
 #
 Name     : R-HistData
 Version  : 0.8.4
-Release  : 2
+Release  : 3
 URL      : https://cran.r-project.org/src/contrib/HistData_0.8-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/HistData_0.8-4.tar.gz
 Summary  : Data Sets from the History of Statistics and Data Visualization
 Group    : Development/Tools
 License  : GPL-3.0
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/HistData)](https://cran.r-project.org/package=HistData)
@@ -25,10 +26,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1571169378
+export SOURCE_DATE_EPOCH=1571842826
 
 %install
-export SOURCE_DATE_EPOCH=1571169378
+export SOURCE_DATE_EPOCH=1571842826
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
