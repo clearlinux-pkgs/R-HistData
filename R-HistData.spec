@@ -4,7 +4,7 @@
 #
 Name     : R-HistData
 Version  : 0.8.7
-Release  : 26
+Release  : 27
 URL      : https://cran.r-project.org/src/contrib/HistData_0.8-7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/HistData_0.8-7.tar.gz
 Summary  : Data Sets from the History of Statistics and Data Visualization
